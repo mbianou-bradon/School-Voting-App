@@ -1,10 +1,11 @@
 import './App.css';
+import Footer from './components/Footer';
 import HomeCards from './components/HomeCards';
 
 function App() {
   return (
-    <div className="App flex items-center justify-center">
-     <HomeCards />
+    <div className="App">
+     <Footer />
     </div>
   );
 }

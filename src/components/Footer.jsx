@@ -1,10 +1,11 @@
-
+import { FaFacebookF , FaTwitter } from "react-icons/fa"
+import { AiFillInstagram } from "react-icons/ai"
 
 export default function Footer (){
 
     return (
-        <footer>
-            <div>
+        <footer className="px-10">
+            <div className="my-5 mb-8 text-ce grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 text-sm text-slate-800 [&>*>h2]:text-violet-600 [&>*>h2]:my-4 [&>*>h2]:text-lg [&>*>ul>li:hover]:underline [&>*>ul>li]:w-fit [&>*>ul>li]:mb-2">
                 <div className="short_about">
                     <h2>Wuna University</h2>
 
@@ -13,17 +14,17 @@ export default function Footer (){
                     </p>
                 </div>
 
-                <div>
+                <div className="flex flex-col md:items-center">
                     <h2>Insight</h2>
                     <ul>
                         <li><a href="">Resources</a></li>
                         <li><a href="">About Us</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
                         <li><a href="">Blog</a></li>
                     </ul>
                 </div>
 
-                <div>
+                <div className="flex flex-col md:items-center">
                     <h2>Help</h2>
                     <ul>
                         <li><a href="">Support</a></li>
@@ -36,27 +37,27 @@ export default function Footer (){
                     <h2>Others</h2>
                     <ul>
                         <li><a href="">Our Successful Students</a></li>
-                        <div>
+                        <div className="flex items-center sm:justify-cente my-5  gap-5 [&>*]:w-fit [&>*]:cursor-pointer [&>*]:bg-violet-600 [&>*]:text-white [&>*:hover]:bg-white [&>*:hover]:text-violet-600 [&>*]:border [&>*]:border-violet-600 [&>*]:rounded-lg [&>*]:px-2 [&>*]:py-1">
                             {/* Facebook */}
                             <div>
-
+                                <FaFacebookF />
                             </div>
                             {/* Twitter */}
                             <div>
-
+                                <FaTwitter />
                             </div>
                             {/* Instagram */}
                             <div>
-
+                                <AiFillInstagram />
                             </div>
                         </div>
                     </ul>
                 </div>
             </div>
 
-            <div>
+            <div className="text-xs text-center [&>*>span]:text-violet-600 [&>*>span]:cursor-pointer [&>*>span:hover]:underline [&>*]:my-3">
                 <p>Our <span>Terms and Conditions</span> and <span>Private Policy</span></p>
-                <p>Copyright &copy; 2023, Wuna University</p>
+                <p className="text-slate-400">Copyright &copy; 2023, Wuna University</p>
             </div>
         </footer>
     )
