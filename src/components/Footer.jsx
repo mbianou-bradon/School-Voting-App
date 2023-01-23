@@ -14,7 +14,7 @@ export default function Footer (){
                     </p>
                 </div>
 
-                <div className="flex flex-col md:items-center">
+                <div className="md:place-self-center">
                     <h2>Insight</h2>
                     <ul>
                         <li><a href="">Resources</a></li>
@@ -24,7 +24,7 @@ export default function Footer (){
                     </ul>
                 </div>
 
-                <div className="flex flex-col md:items-center">
+                <div className="md:place-self-center">
                     <h2>Help</h2>
                     <ul>
                         <li><a href="">Support</a></li>
