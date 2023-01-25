@@ -23,17 +23,23 @@ const StepToVoteData = [
 export default function HowItWorks() {
 
     return (
-        <div className="flex justify-center gap-16 w-full min-h-screen py-20">
-           <div className="flex justify-between flex-col ">
-                {
-                    StepToVoteData.map(step => {
-                        return (<HowToVote position = {step.position} name = {step.name} description = {step.description} />)
-                    })
-                }
-           </div>
+        <div className="min-h-screen py-10 px-4 sm:px-10">
+            <div className="text-center mb-10">
+                <h2 className="font-bold text-3xl text-violet-900 mb-3">How it works</h2>
+                <p>It's simple and easy to use with these 3 steps</p>
+            </div>
+            <div className="flex justify-center gap-16 flex-col sm:flex-row w-full">
+                <div className="flex justify-between flex-col gap-y-8">
+                        {
+                            StepToVoteData.map(step => {
+                                return (<HowToVote position = {step.position} name = {step.name} description = {step.description} />)
+                            })
+                        }
+                </div>
 
-            <div>
-                <img src={IVoted} alt="" className="h-[105%] object-cover"/>
+                <div className="">
+                    <img src={IVoted} alt="" className="h-[105%] object-cover"/>
+                </div>
             </div>
         </div>
     )
