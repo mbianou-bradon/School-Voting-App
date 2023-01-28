@@ -1,12 +1,12 @@
 import './App.css';
-import Contact from './pages/Contact';
+import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
 
 
 function App() {
   return (
     <div className="App text-slate-800 max-w-[85rem] mx-auto">
-     <Contact />
+     <AboutUs />
     </div>
   );
 }
