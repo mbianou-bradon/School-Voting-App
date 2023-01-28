@@ -20,7 +20,7 @@ export default function Contact(){
                         </div>
 
                         <div className="w-4/5 ">
-                            <form action="" className="[&>input]:border [&>input]:border-violet-600 [&>input]:block [&>input]:h-10 [&>input]:w-full  [&>input]:text-sm [&>input]:text-violet-600 [&>input]:rounded [&>input]:my-2 [&>input]:pl-2 [&>label]:text-sm [&>label]:mt-3 [&>label]:block">
+                            <form action="" className="[&>input]:border [&>input]:border-violet-600 [&>input]:block [&>input]:h-10 [&>input]:w-full  [&>input]:text-sm [&>input]:text-violet-600 [&>input]:rounded-full [&>input]:my-2 [&>input]:pl-4 [&>label]:text-sm [&>label]:mt-3 [&>label]:block">
                                 <label htmlFor="name">Name</label>
                                 <input type="text" name="name" id="forName" placeholder="Mbianou Bradon"/>
 
