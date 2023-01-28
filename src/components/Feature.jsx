@@ -1,4 +1,4 @@
-import star_background from "../assets/star-background.png"
+import star_background from "../assets/star_background.png"
 export default function Feature (props){
 
     return (
