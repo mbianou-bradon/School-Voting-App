@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 export default function SignUp(){
@@ -30,7 +31,7 @@ export default function SignUp(){
                             <button className="border border-violet-600 bg-violet-600 py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-violet-700 hover:scale-105 active:scale-95">Sign Up</button>
 
                             <p className="w-full h-10 rounded-full shadow-md text-center bg-white border pt-1.5 my-3 cursor-pointer hover:scale-105 active:scale-95">Sign Up with Google</p>
-                            <div className="text-center font-semibold"><a href="">Sign In as an Admin</a></div>
+                            <div className="text-center font-semibold"><Link to="/login/admin">Sign In as an Admin</Link></div>
                         </form>
                     </div>
                 </div>

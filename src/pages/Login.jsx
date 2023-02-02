@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 
 
-export default function SignUp(){
+export default function Login(){
 
     return (
         <div>
@@ -31,13 +32,13 @@ export default function SignUp(){
                                     <label htmlFor="rememberPassword">Remember Password</label>
                                 </div>
 
-                                <h2 className="text-violet-600 font-semibold hover:underline cursor-pointer"><a href="">Forgot Password?</a></h2>
+                                <h2 className="text-violet-600 font-semibold hover:underline cursor-pointer"><Link to={'/login/forgot_password'}>Forgot Password?</Link></h2>
                             </div>
 
                             <button className="border border-violet-600 bg-violet-600 py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-violet-700 hover:scale-105 active:scale-95">LogIn</button>
 
                             <p className="w-full h-10 rounded-full shadow-md text-center bg-white border pt-1.5 my-3 cursor-pointer hover:scale-105 active:scale-95">LogIn with Google</p>
-                            <div className="text-center font-semibold mt-6"><a href="">LogIn as an Admin</a></div>
+                            <div className="text-center font-semibold mt-6"><Link to={'/login/admin'}>LogIn as an Admin</Link></div>
                         </form>
                     </div>
                 </div>

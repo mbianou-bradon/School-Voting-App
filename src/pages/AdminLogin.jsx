@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+import admin from "../assets/Admin.png" 
 
 
-export default function SignUp(){
+export default function AdminLogin(){
 
     return (
-        <div>
+        <div className="px-4">
 
-            <div className="px-4">
-                <div>
-                    <img src="" alt="" />
+            <div className="flex flex-wrap items-center justify-around min-h-[50vh] lg:min-h-[87vh]">
+                <div className="w-2/3 md:w-1/3">
+                    <img src={admin} alt="" />
                 </div>
 
                 <div>
@@ -29,7 +31,7 @@ export default function SignUp(){
                                     <label htmlFor="rememberPassword" className="block">Remember Password</label>
                                 </div>
 
-                                <h2 className="text-violet-600 font-semibold hover:underline cursor-pointer"><a href="">Forgot Password?</a></h2>
+                                <h2 className="text-violet-600 font-semibold hover:underline cursor-pointer"><Link to="/login/forgot_password">Forgot Password?</Link></h2>
                             </div>
 
                             <button className="border border-violet-600 bg-violet-600 py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-violet-700 hover:scale-105 active:scale-95">LogIn</button>

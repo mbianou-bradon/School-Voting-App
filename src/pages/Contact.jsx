@@ -6,7 +6,7 @@ export default function Contact(){
 
     return(
         <div>
-            <Navbar/>
+
             <div className="min-h-screen">
                 <div>
                     <h2 className="text-3xl font-semibold text-center">Get In Touch with us</h2>
@@ -40,8 +40,6 @@ export default function Contact(){
                 </div>
             </div>
 
-
-            <Footer/>
         </div>
     )
 }

@@ -8,8 +8,6 @@ export default function ContactUs(){
 
     return(
         <div>
-            <Navbar/>
-
             <div className="px-4">
                 <div className="w-full md:w-4/5 mx-auto text-center">
                     <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold mb-4">We aim to make school elections ease, seamless and fair</h2>
@@ -38,8 +36,6 @@ export default function ContactUs(){
                     </div>
                 </div>
             </div>
-
-            <Footer/>
         </div>
     )
 }

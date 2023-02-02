@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 
 
 export default function Navbar() {
@@ -10,24 +11,24 @@ export default function Navbar() {
 
             <div className="text-slate-800 [&>*>li]:  [&>*>li:hover]:text-violet-600 [&>*>li]:border-b-2 [&>*>li]:border-b-transparent [&>*>li:hover]:border-b-violet-600 flex items-center gap-5 lg:gap-20" >
                 <ul className="hidden md:flex items-center gap-9">
-                    <li className="hidden lg:block"><a href="">Home</a></li>
-                    <li><a href="">Vote</a></li>
-                    <li className="hidden lg:block"><a href="">News/Update</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li className="hidden lg:block"><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/votingpage">Vote</NavLink></li>
+                    <li className="hidden lg:block"><NavLink to="/news">News/Update</NavLink></li>
+                    <li><NavLink to="/about">About</NavLink></li>
+                    <li><NavLink to="/contact">Contact Us</NavLink></li>
                 </ul>
 
                 <div className="text-sm [&>*]:border [&>*]:border-violet-600 [&>*]:rounded-full [&>*]:w-fit [&>*]:cursor-pointer text-violet-600 font-semibold [&>*]:px-4 [&>*]:py-2 hidden sm:flex items-center gap-5">
                     <div className="hover:bg-violet-500 hover:text-white">
-                        <a href="">
+                        <NavLink to="/login">
                             Log In
-                        </a>
+                        </NavLink>
                     </div>
 
                     <div className="bg-violet-600 text-white hover:bg-white hover:text-violet-600">
-                        <a href="">
+                        <NavLink to="/signup">
                             Register as a Voter
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>

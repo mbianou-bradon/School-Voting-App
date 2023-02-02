@@ -1,12 +1,9 @@
 import forgot from "../assets/Forgot_password.png"
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
 
 export default function ForgotPassword(){
 
     return(
         <div>
-            <Navbar/>
 
             <div className="flex flex-wrap items-center justify-around min-h-[50vh] lg:min-h-[87vh] px-8">
                 <div className="w-2/3 md:w-1/3">
@@ -28,7 +25,6 @@ export default function ForgotPassword(){
                 </div>
             </div>
 
-            <Footer/>
         </div>
     )
 }

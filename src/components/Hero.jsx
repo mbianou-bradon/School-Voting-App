@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import home from '../assets/home.png'
 
 export default function Hero () {
@@ -12,7 +13,7 @@ export default function Hero () {
                 </div>
 
                 <div className="mt-7 md:mt-10 bg-violet-600 text-white hover:bg-white hover:text-violet-600 text-sm border border-violet-600 rounded-full w-fit cursor-pointer font-semibold px-4 py-2 " >
-                    <a href="#">Register as a voter</a>
+                    <Link to="/signup">Register as a voter</Link>
                 </div>
             </div>
 
