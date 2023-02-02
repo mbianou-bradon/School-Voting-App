@@ -25,7 +25,7 @@ const featureData = [
 export default function MainFeatures (){
         
     return (
-        <div className="flex items-center justify-center flex-col bg-violet-600 min-h-screen text-white text-center py-8">
+        <div className="flex items-center justify-center flex-col bg-primary min-h-screen text-white text-center py-8">
             <div className="mb-10">
                 <h2 className="text-4xl font-semibold">Our Features</h2>
                 <p className="my-5 text-lg">Secured Sytem that guarantee seamless Elections</p>

@@ -10,7 +10,7 @@ export default function Card(props)  {
                 <div className="card-body text-center [&>*]:my-5 grid grid-row-2">
                     <h5 className="card-title">{props.name}<span className='text-success'><br />{props.position}</span> </h5>
                     <p className="card-text text-sm">{props.description}</p>
-                    <a href="#s" className="border border-violet-500 rounded px-4 py-2 text-white bg-violet-500 active:scale-95 hover:bg-white hover:text-violet-500 cursor-pointer">More details</a>
+                    <a href="#s" className="border border-primary rounded px-4 py-2 text-white bg-primary active:scale-95 hover:bg-white hover:text-primary cursor-pointer">More details</a>
                 </div>
             </div>
        

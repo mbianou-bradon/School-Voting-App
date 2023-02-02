@@ -4,9 +4,9 @@
 export default function VoterCard (){
 
     return (
-        <div className="w-full max-w-[16rem] rounded-md border border-violet-600 py-5 px-4">
+        <div className="w-full max-w-[16rem] rounded-md border border-primary py-5 px-4">
             <div>
-                <div className="w-20 h-20 mx-auto bg-violet-600 rounded-full">
+                <div className="w-20 h-20 mx-auto bg-primary rounded-full">
                     <img src="" alt="" />
                 </div>
 
@@ -15,9 +15,9 @@ export default function VoterCard (){
                     <p className="text-sm">Software Development</p>
                 </div>
 
-                <div className="flex justify-between gap-3 [&>*]:border [&>*]:border-violet-600 [&>*]:py-2 [&>*]:rounded [&>*]:cursor-pointer [&>*:active]:scale-95">
-                    <div className="px-5 bg-violet-600 text-white hover:text-violet-600 hover:bg-white"><h2>Vote</h2></div>
-                    <div className="text-sm px-1 hover:bg-violet-600 hover:text-white">
+                <div className="flex justify-between gap-3 [&>*]:border [&>*]:border-primary [&>*]:py-2 [&>*]:rounded [&>*]:cursor-pointer [&>*:active]:scale-95">
+                    <div className="px-5 bg-primary text-white hover:text-primary hover:bg-white"><h2>Vote</h2></div>
+                    <div className="text-sm px-1 hover:bg-primary hover:text-white">
                         <h3>VIEW DETAILS</h3>
                     </div>
                 </div>

@@ -18,8 +18,8 @@ export default function ForgotPassword(){
 
                     <div>
                         <form action="">
-                            <input type="email" name="email" id="formEmail" placeholder="Enter institutional email Address" className="h-10 w-full pl-4 border border-violet-600 rounded-full text-sm text-violet-600 mb-5"/>
-                            <button className="border border-violet-600 bg-violet-600 py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-violet-700 hover:scale-105 active:scale-95">Send Code</button>
+                            <input type="email" name="email" id="formEmail" placeholder="Enter institutional email Address" className="h-10 w-full pl-4 border border-primary rounded-full text-sm text-primary mb-5"/>
+                            <button className="border border-primary bg-primary py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-primary hover:scale-105 active:scale-95">Send Code</button>
                         </form>
                     </div>
                 </div>

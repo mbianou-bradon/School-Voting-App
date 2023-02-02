@@ -4,9 +4,8 @@ import Navbar from "../components/Navbar"
 
 export default function Contact(){
 
-    return(
+    return (
         <div>
-
             <div className="min-h-screen">
                 <div>
                     <h2 className="text-3xl font-semibold text-center">Get In Touch with us</h2>
@@ -20,7 +19,7 @@ export default function Contact(){
                         </div>
 
                         <div className="w-4/5 ">
-                            <form action="" className="[&>input]:border [&>input]:border-violet-600 [&>input]:block [&>input]:h-10 [&>input]:w-full  [&>input]:text-sm [&>input]:text-violet-600 [&>input]:rounded-full [&>input]:my-2 [&>input]:pl-4 [&>label]:text-sm [&>label]:mt-3 [&>label]:block [&>label]:ml-2">
+                            <form action="" className="[&>input]:border [&>input]:border-primary [&>input]:block [&>input]:h-10 [&>input]:w-full  [&>input]:text-sm [&>input]:text-primary [&>input]:rounded-full [&>input]:my-2 [&>input]:pl-4 [&>label]:text-sm [&>label]:mt-3 [&>label]:block [&>label]:ml-2">
                                 <label htmlFor="name">Name</label>
                                 <input type="text" name="name" id="forName" placeholder="Mbianou Bradon"/>
 
@@ -31,9 +30,9 @@ export default function Contact(){
                                 <input type="text" name="subject" id="forSubject" />
 
                                 <label htmlFor="message">Message</label>
-                                <textarea name="message" id="forMessage" rows="5" placeholder="Write your message here. . ." className="block border border-violet-600 rounded-3xl p-4 my-2 text-sm w-full"></textarea>
+                                <textarea name="message" id="forMessage" rows="5" placeholder="Write your message here. . ." className="block border border-primary rounded-3xl p-4 my-2 text-sm w-full"></textarea>
 
-                                <button className="border border-violet-600 bg-violet-600 py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-violet-700 hover:scale-105 active:scale-95">Submit Message</button>
+                                <button className="border border-primary bg-primary py-2 text-white font-semibold rounded-full text-sm my-3 w-full hover:bg-primary hover:scale-105 active:scale-95">Submit Message</button>
                             </form>
                         </div>
                     </div>

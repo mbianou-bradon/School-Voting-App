@@ -1,8 +1,7 @@
 import aboutUS from "../assets/AboutUs.png"
 import {HiLightBulb} from "react-icons/hi"
 import {GiVote} from "react-icons/gi"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+
 
 export default function ContactUs(){
 
@@ -21,8 +20,8 @@ export default function ContactUs(){
                 </div>
 
                 <div className="flex flex-wrap justify-around gap-10 [&>*]:py-10 [&>*]:px-5 [&>*]:rounded-lg [&>*]:max-w-[20rem] [&>*>div]:w-10 [&>*>div]:h-10 [&>*>div]:flex [&>*>div]:items-center [&>*>div]:justify-center [&>*>div]:rounded-full [&>*>div]:text-2xl [&>*>h2]:text-lg [&>*>h2]:font-semibold [&>*>h2]:my-3 [&>*>p]:sm:text-sm [&>*>p]:w-full [&>*>p]:sm:w-[90%] [&>*>p]:text-xs [&>*>div]:mb-2">
-                    <div className="bg-purple-600 text-white">
-                        <div className="bg-white text-purple-600"><HiLightBulb/></div>
+                    <div className="bg-primary text-white">
+                        <div className="bg-white text-primary"><HiLightBulb/></div>
                         <h2>The Idea</h2>
                         <p>The Alpha team conducted an indepth reseach and saw the need for an online voting system that would speed up electoral 
                             process and help students vote in their preffered candidates
@@ -30,7 +29,7 @@ export default function ContactUs(){
                     </div>
 
                     <div className="bg-slate-200">
-                        <div className="bg-purple-600 text-white"><GiVote/></div>
+                        <div className="bg-primary text-white"><GiVote/></div>
                         <h2>The Solution</h2>
                         <p>The Alpha team is set to solve the issue of slow electoral process and create a secured platform that ensures fair elections</p>
                     </div>

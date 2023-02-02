@@ -2,7 +2,7 @@ import star_background from "../assets/star_background.png"
 export default function Feature (props){
 
     return (
-        <div className="bg-violet-60 max-w-sm">
+        <div className="bg-primary max-w-sm">
             <div className="w-full relative">
                 <img src={star_background} alt="" className="h-[13rem] mx-auto"/>
                 <div className="absolute w-20 top-[4rem] left-[40%]">

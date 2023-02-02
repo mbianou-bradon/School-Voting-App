@@ -12,7 +12,7 @@ export default function Hero () {
                     </p>
                 </div>
 
-                <div className="mt-7 md:mt-10 bg-violet-600 text-white hover:bg-white hover:text-violet-600 text-sm border border-violet-600 rounded-full w-fit cursor-pointer font-semibold px-4 py-2 " >
+                <div className="mt-7 md:mt-10 bg-primary text-white hover:bg-white hover:text-primary text-sm border border-primary rounded-full w-fit cursor-pointer font-semibold px-4 py-2 " >
                     <Link to="/signup">Register as a voter</Link>
                 </div>
             </div>
